@@ -233,18 +233,21 @@ Upgrades
 		desc:Each branch manager has their own secretary!</><b>Effect:</b> Make your branch managers more efficient.
 		cost:1 packs
 		passive:multiply yield of bmanagers by 2
+		icon:icons[2,2] icons[1,2] icons[2,0]
 		req:bmanagers:max >= 10
 	*assistantBManager
 		name:Assistant <i>to</i> the Branch Manager
 		desc:Each branch manager has their own assistant!</><b>Effect:</b> Make your branch managers more efficient.
 		cost:1 packs
 		passive:multiply yield of bmanagers by 2
+		icon:icons[2,3] icons[1,2] icons[2,0]
 		req:bmanagers:max >= 100
 	*fileOrganization
 		name:Better File Organization
 		desc:Give classes on file organization to your branch managers!</><b>Effect:</b> Make your branch managers more efficient.
 		cost:1 packs
 		passive:multiply yield of bmanagers by 2
+		icon:icons[2,4] icons[1,2] icons[2,0]
 		req:bmanagers:max >= 10000
 		
 	*toupees
@@ -252,18 +255,21 @@ Upgrades
 		desc:Give your CEOs toupees, boosting their confidence!</><b>Effect:</b> Make your CEOs more efficient.
 		cost:1 packs
 		passive:multiply yield of ceos by 2
+		icon:icons[2,2] icons[1,3] icons[2,0]
 		req:ceos:max >= 10
 	*goldNamePlates
 		name:Gold Name Plates
 		desc:Give every CEO a golden name plate for their offices!</><b>Effect:</b> Make your CEOs more efficient.
 		cost:1 packs
 		passive:multiply yield of ceos by 2
+		icon:icons[2,3] icons[1,3] icons[2,0]
 		req:ceos:max >= 100
 	*cornerOffices
 		name:Corner Offices
 		desc:Give every CEO a corner office, each with a golden potty!</><b>Effect:</b> Make your CEOs more efficient.
 		cost:1 packs
 		passive:multiply yield of ceos by 2
+		icon:icons[2,4] icons[1,3] icons[2,0]
 		req:ceos:max >= 10000
 		
 	*betterFurniture
@@ -271,18 +277,21 @@ Upgrades
 		desc:Get better furniture for your penthouses!</><b>Effect:</b> Make your penthouses more efficient.
 		cost:1 packs
 		passive:multiply yield of penthouses by 2
+		icon:icons[2,2] icons[1,4] icons[2,0]
 		req:penthouses:max >= 10
 	*higherSkyscrapers
 		name:Higher Skyscapers
 		desc:Make penthouses higher by building higher skyscrapers!</><b>Effect:</b> Make your penthouses more efficient.
 		cost:1 packs
 		passive:multiply yield of penthouses by 2
+		icon:icons[2,3] icons[1,4] icons[2,0]
 		req:penthouses:max >= 100
 	*smartHouses
 		name:Smart Houses
 		desc:Equip your penthosues with state-of-the-art technology!</><b>Effect:</b> Make your penthouses more efficient.
 		cost:1 packs
 		passive:multiply yield of penthouses by 2
+		icon:icons[2,4] icons[1,4] icons[2,0]
 		req:penthouses:max >= 10000
 		
 	*boostedBoosters
@@ -290,16 +299,19 @@ Upgrades
 		desc:Get booster packs faster!</><b>Effect:</b> Booster packs will spawn more often.
 		cost:5 foils
 		passive:multiply frequency of boosterPack by 0.5
+		icon:icons[2,1] icons[0,4] icons[0,1] icons[2,0]
 		req:1 boosterPack:clicks
 	*touchOfLuck
 		name:Touch of Luck
 		desc:Get luckier when opening booster packs!</><b>Effect:</b> Booster packs contain more foil cards.
 		cost:5 foils
+		icon:icons[2,1] icons[0,3] icons[0,1] icons[2,0]
 		req:1 boosterPack:clicks
 	*fourLeafBoosters
 		name:Four Leaf Boosters
 		desc:Get even luckier when openingg booster packs!</><b>Effect:</b> Booster packs will contain more foil cards.
 		cost:15 foils
+		icon:icons[2,1] icons[0,3] icons[0,1] icons[2,0]
 		req:10 boosterPack:clicks
 		
 	*foilWorkers
@@ -307,30 +319,35 @@ Upgrades
 		desc:Your workers are embedded with the power of foil cards.</><b>Effect:</b> Make your workers much more efficient.
 		cost:25 foils
 		passive:multiply yield of workers by 4
+		icon:icons[2,1] icons[3,0] icons[2,0]
 		req:workers:max >= 500
 	*foilManagers
 		name:Foil Managers
 		desc:Your managers are embedded with the power of foil cards.</><b>Effect:</b> Make your managers much more efficient.
 		cost:25 foils
 		passive:multiply yield of managers by 4
+		icon:icons[2,1] icons[3,1] icons[2,0]
 		req:managers:max >= 500
 	*foilBManagers
 		name:Foil Branch Managers
 		desc:Your branch managers are embedded with the power of foil cards.</><b>Effect:</b> Make your branch managers much more efficient.
 		cost:25 foils
 		passive:multiply yield of bmanagers by 4
+		icon:icons[2,1] icons[3,2] icons[2,0]
 		req:bmanagers:max >= 500
 	*foilCeos
 		name:Foil CEOs
 		desc:Your CEOs are embedded with the power of foil cards.</><b>Effect:</b> Make your CEOs much more efficient.
 		cost:25 foils
 		passive:multiply yield of ceos by 4
+		icon:icons[2,1] icons[3,3] icons[2,0]
 		req:ceos:max >= 50
 	*foilPenthouses
 		name:Foil Penthouses
 		desc:Your penthouses are embedded with the power of foil cards.</><b>Effect:</b> Make your penthouses much more efficient.
 		cost:25 foils
 		passive:multiply yield of penthouses by 4
+		icon:icons[2,1] icons[3,4] icons[2,0]
 		req:penthouses:max >= 500
 	
 Shinies
