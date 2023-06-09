@@ -8,7 +8,7 @@ Let's make a game!
 Settings
 	stylesheet:stuff/bigBlue.css
 	building cost increase:110%
-	spritesheet:icons, 48 by 48, https://i.imgur.com/LeGTdWF.png
+	spritesheet:icons, 48 by 48, https://i.imgur.com/mawKXEx.png
 	
 Buttons
 	*packclick
@@ -131,21 +131,21 @@ Upgrades
 		desc:Make packs faster by becoming more dexterous!</><b>Effect:</b> +1 PpC (packs per click).
 		cost:100 packs
 		passive:increase yield of packclick by 1
-		icon:icons[2,1] icons[0,2] icons[0,0]
+		icon:icons[2,2] icons[0,2] icons[0,0] icons[2,0]
 		req:50 packs:earned
 	*biggerSheets
 		name:Bigger Sheets
 		desc:Use bigger sheets to cut your cards!</><b>Effect:</b> +2 PpC.
 		cost:350 packs
 		passive:increase yield of packclick by 2
-		icon:icons[2,2] icons[0,2] icons[0,0]
+		icon:icons[2,3] icons[0,2] icons[0,0] icons[2,0]
 		req:500 packs:earned
 	*biggerPrinters
 		name:Bigger Printers
 		desc:We're gonna need a bigger printer...</><b>Effect:</b> +4 PpC.
 		cost:10000 pack
 		passive:increase yield of packclick by 4
-		icon:icons[2,3] icons[0,2] icons[0,0]
+		icon:icons[2,4] icons[0,2] icons[0,0] icons[2,0]
 		req:15000 packs:earned
 		
 	*teamBonding
@@ -153,35 +153,35 @@ Upgrades
 		desc:Bond with your workers!</><b>Effect:</b> Gain +1 PpC per 1k workers.
 		cost:5000 packs
 		passive:increase yield of packclick by workers/1000
-		icon:icons[2,1] icons[0,5] icons[1,0] 
+		icon:icons[2,2] icons[0,5] icons[1,0] icons[2,0]
 		req:workers:max >= 1000
 	*middleManagers
 		name:Middle Managers
 		desc:Manage your managers!</><b>Effect:</b> Gain +1 PpC per 1k managers.
 		cost:1 pack
 		passive:increase yield of packclick by managers/1000
-		icon:icons[2,1] icons[0,5] icons[1,1]
+		icon:icons[2,2] icons[0,5] icons[1,1] icons[2,0]
 		req:managers:max >= 1000
 	*branchMerging
 		name:Branch Merging
 		desc:Bring all your branch managers closer together!</><b>Effect:</b> Gain +1 PpC per 1k branch managers.
 		cost:1 pack
 		passive:increase yield of packclick by bmanagers/1000
-		icon:icons[2,1] icons[0,5] icons[1,2]
+		icon:icons[2,2] icons[0,5] icons[1,2] icons[2,0]
 		req:bmanagers:max >= 1000
 	*golfSessions
 		name:Weekly Golf Sessions
 		desc:Go golfing with your CEOs to know them better!</><b>Effect:</b> Gain +1 PpC per 1k CEOs.
 		cost:1 pack
 		passive:increase yield of packclick by ceos/1000
-		icon:icons[2,1] icons[0,5] icons[1,3]
+		icon:icons[2,2] icons[0,5] icons[1,3] icons[2,0]
 		req:ceos:max >= 1000
 	*realEstateAgents
 		name:Real Estate Agents
 		desc:Contact real estate agents to help manage your penthouses!</><b>Effect:</b> Gain +1 PpC per 1k penthouses.
 		cost:1 pack
 		passive:increase yield of packclick by penthouses/1000
-		icon:icons[2,1] icons[0,5] icons[1,4]
+		icon:icons[2,2] icons[0,5] icons[1,4] icons[2,0]
 		req:penthouses:max >= 1000
 		
 	*freeCoffee
@@ -189,21 +189,21 @@ Upgrades
 		desc:Give free coffee to your staff!</><b>Effect:</b> Make your workers more efficient.
 		cost:150 packs
 		passive:multiply yield of workers by 2
-		icon:icons[2,1] icons[1,0]
+		icon:icons[2,2] icons[1,0] icons[2,0]
 		req:workers:max >= 10
 	*newTools
 		name:New Tools
 		desc:Buy some new tools for your staff!</><b>Effect:</b> Make your workers more efficient.
 		cost:1000 packs
 		passive:multiply yield of workers by 2
-		icon:icons[2,2] icons[1,0]
+		icon:icons[2,3] icons[1,0] icons[2,0]
 		req:workers:max >= 100
 	*betterCubicles
 		name:Better Cubicles
 		desc:Your workers now have nicer cubicles!</><b>Effect:</b> Make your workers more efficient.
 		cost:100000 packs
 		passive:multiply yield of workers by 2
-		icon:icons[2,3] icons[1,0]
+		icon:icons[2,4] icons[1,0] icons[2,0]
 		req:workers:max >= 10000
 		
 	*betterSuits
@@ -211,21 +211,21 @@ Upgrades
 		desc:Get better suits for your managers!</><b>Effect:</b> Make your managers more efficient.
 		cost:5000 packs
 		passive:multiply yield of managers by 2
-		icon:icons[2,1] icons[1,1]
+		icon:icons[2,2] icons[1,1] icons[2,0]
 		req:managers:max >= 10
 	*biggerOffices
 		name:Bigger Offices
 		desc:Give your managers bigger offices!</><b>Effect:</b> Make your managers more efficient.
 		cost:250000 packs
 		passive:multiply yield of managers by 2
-		icon:icons[2,2] icons[1,1]
+		icon:icons[2,3] icons[1,1] icons[2,0]
 		req:managers:max >= 100
 	*peopleSkills
 		name:People Skills
 		desc:Give classes on people skills to your managers!</><b>Effect:</b> Make your managers more efficient.
 		cost:1 packs
 		passive:multiply yield of managers by 2
-		icon:icons[2,3] icons[1,1]
+		icon:icons[2,4] icons[1,1] icons[2,0]
 		req:managers:max >= 10000
 
 	*secretaries
