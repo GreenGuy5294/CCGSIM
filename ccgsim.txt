@@ -104,7 +104,7 @@ Buildings
 	*bmanager|bmanagers
 		name:Branch Managar|Branch Managers
 		desc:Helps look over branches of your company and promote managers.
-		cost:15000 packs, 5 managers
+		cost:10000 packs, 5 managers
 		on tick:yield 1 managerpart
 		icon:icons[1,2]
 		req:managers:max >= 15
@@ -120,12 +120,16 @@ Buildings
 	*penthouse|penthouses
 		name:Penthouse|Penthouses
 		desc:The penthouse contains the perfect habitat for the creation of more CEOs.
-		cost:25000000 packs, 5 ceos
+		cost:10000000 packs, 5 ceos
 		on tick:yield 1 ceopart
 		icon:icons[1,4]
 		req:ceos:max >= 15
 		
 Upgrades
+
+	*TEMPLATE
+		on click:anim glow
+		
 	*fasterHands
 		name:Faster Hands
 		desc:Make packs faster by becoming more dexterous!</><b>Effect:</b> +1 PpC (packs per click).
@@ -143,7 +147,7 @@ Upgrades
 	*biggerPrinters
 		name:Bigger Printers
 		desc:We're gonna need a bigger printer...</><b>Effect:</b> +4 PpC.
-		cost:10000 pack
+		cost:7500 pack
 		passive:increase yield of packclick by 4
 		icon:icons[2,4] icons[0,2] icons[0,0] icons[2,0]
 		req:15000 packs:earned
@@ -158,28 +162,28 @@ Upgrades
 	*middleManagers
 		name:Middle Managers
 		desc:Manage your managers!</><b>Effect:</b> Gain +1 PpC per 1k managers.
-		cost:1 pack
+		cost:10000000 pack
 		passive:increase yield of packclick by managers/1000
 		icon:icons[2,2] icons[0,5] icons[1,1] icons[2,0]
 		req:managers:max >= 1000
 	*branchMerging
 		name:Branch Merging
 		desc:Bring all your branch managers closer together!</><b>Effect:</b> Gain +1 PpC per 1k branch managers.
-		cost:1 pack
+		cost:20000000000 pack
 		passive:increase yield of packclick by bmanagers/1000
 		icon:icons[2,2] icons[0,5] icons[1,2] icons[2,0]
 		req:bmanagers:max >= 1000
 	*golfSessions
 		name:Weekly Golf Sessions
 		desc:Go golfing with your CEOs to know them better!</><b>Effect:</b> Gain +1 PpC per 1k CEOs.
-		cost:1 pack
+		cost:40000000000000 pack
 		passive:increase yield of packclick by ceos/1000
 		icon:icons[2,2] icons[0,5] icons[1,3] icons[2,0]
 		req:ceos:max >= 1000
 	*realEstateAgents
 		name:Real Estate Agents
 		desc:Contact real estate agents to help manage your penthouses!</><b>Effect:</b> Gain +1 PpC per 1k penthouses.
-		cost:1 pack
+		cost:80000000000000000 pack
 		passive:increase yield of packclick by penthouses/1000
 		icon:icons[2,2] icons[0,5] icons[1,4] icons[2,0]
 		req:penthouses:max >= 1000
@@ -201,7 +205,7 @@ Upgrades
 	*betterCubicles
 		name:Better Cubicles
 		desc:Your workers now have nicer cubicles!</><b>Effect:</b> Make your workers more efficient.
-		cost:100000 packs
+		cost:250000 packs
 		passive:multiply yield of workers by 2
 		icon:icons[2,4] icons[1,0] icons[2,0]
 		req:workers:max >= 10000
@@ -216,14 +220,14 @@ Upgrades
 	*biggerOffices
 		name:Bigger Offices
 		desc:Give your managers bigger offices!</><b>Effect:</b> Make your managers more efficient.
-		cost:250000 packs
+		cost:200000 packs
 		passive:multiply yield of managers by 2
 		icon:icons[2,3] icons[1,1] icons[2,0]
 		req:managers:max >= 100
 	*peopleSkills
 		name:People Skills
 		desc:Give classes on people skills to your managers!</><b>Effect:</b> Make your managers more efficient.
-		cost:1 packs
+		cost:50000000 packs
 		passive:multiply yield of managers by 2
 		icon:icons[2,4] icons[1,1] icons[2,0]
 		req:managers:max >= 10000
@@ -231,21 +235,21 @@ Upgrades
 	*secretaries
 		name:Secretaries
 		desc:Each branch manager has their own secretary!</><b>Effect:</b> Make your branch managers more efficient.
-		cost:1 packs
+		cost:100000 packs
 		passive:multiply yield of bmanagers by 2
 		icon:icons[2,2] icons[1,2] icons[2,0]
 		req:bmanagers:max >= 10
 	*assistantBManager
 		name:Assistant <i>to</i> the Branch Manager
 		desc:Each branch manager has their own assistant!</><b>Effect:</b> Make your branch managers more efficient.
-		cost:1 packs
+		cost:1000000 packs
 		passive:multiply yield of bmanagers by 2
 		icon:icons[2,3] icons[1,2] icons[2,0]
 		req:bmanagers:max >= 100
 	*fileOrganization
 		name:Better File Organization
 		desc:Give classes on file organization to your branch managers!</><b>Effect:</b> Make your branch managers more efficient.
-		cost:1 packs
+		cost:100000000 packs
 		passive:multiply yield of bmanagers by 2
 		icon:icons[2,4] icons[1,2] icons[2,0]
 		req:bmanagers:max >= 10000
@@ -253,21 +257,21 @@ Upgrades
 	*toupees
 		name:Toupees
 		desc:Give your CEOs toupees, boosting their confidence!</><b>Effect:</b> Make your CEOs more efficient.
-		cost:1 packs
+		cost:2000000 packs
 		passive:multiply yield of ceos by 2
 		icon:icons[2,2] icons[1,3] icons[2,0]
 		req:ceos:max >= 10
 	*goldNamePlates
 		name:Gold Name Plates
 		desc:Give every CEO a golden name plate for their offices!</><b>Effect:</b> Make your CEOs more efficient.
-		cost:1 packs
+		cost:20000000 packs
 		passive:multiply yield of ceos by 2
 		icon:icons[2,3] icons[1,3] icons[2,0]
 		req:ceos:max >= 100
 	*cornerOffices
 		name:Corner Offices
 		desc:Give every CEO a corner office, each with a golden potty!</><b>Effect:</b> Make your CEOs more efficient.
-		cost:1 packs
+		cost:2000000000 packs
 		passive:multiply yield of ceos by 2
 		icon:icons[2,4] icons[1,3] icons[2,0]
 		req:ceos:max >= 10000
@@ -275,21 +279,21 @@ Upgrades
 	*betterFurniture
 		name:Better Furniture
 		desc:Get better furniture for your penthouses!</><b>Effect:</b> Make your penthouses more efficient.
-		cost:1 packs
+		cost:50000000 packs
 		passive:multiply yield of penthouses by 2
 		icon:icons[2,2] icons[1,4] icons[2,0]
 		req:penthouses:max >= 10
 	*higherSkyscrapers
 		name:Higher Skyscapers
 		desc:Make penthouses higher by building higher skyscrapers!</><b>Effect:</b> Make your penthouses more efficient.
-		cost:1 packs
+		cost:500000000 packs
 		passive:multiply yield of penthouses by 2
 		icon:icons[2,3] icons[1,4] icons[2,0]
 		req:penthouses:max >= 100
 	*smartHouses
 		name:Smart Houses
 		desc:Equip your penthosues with state-of-the-art technology!</><b>Effect:</b> Make your penthouses more efficient.
-		cost:1 packs
+		cost:50000000000 packs
 		passive:multiply yield of penthouses by 2
 		icon:icons[2,4] icons[1,4] icons[2,0]
 		req:penthouses:max >= 10000
@@ -299,19 +303,19 @@ Upgrades
 		desc:Get booster packs faster!</><b>Effect:</b> Booster packs will spawn more often.
 		cost:5 foils
 		passive:multiply frequency of boosterPack by 0.5
-		icon:icons[2,1] icons[0,4] icons[0,1] icons[2,0]
+		icon:icons[2,1] icons[0,3] icons[0,1] icons[2,0]
 		req:1 boosterPack:clicks
 	*touchOfLuck
 		name:Touch of Luck
 		desc:Get luckier when opening booster packs!</><b>Effect:</b> Booster packs contain more foil cards.
 		cost:5 foils
-		icon:icons[2,1] icons[0,3] icons[0,1] icons[2,0]
+		icon:icons[2,1] icons[0,4] icons[0,1] icons[2,0]
 		req:1 boosterPack:clicks
 	*fourLeafBoosters
 		name:Four Leaf Boosters
 		desc:Get even luckier when openingg booster packs!</><b>Effect:</b> Booster packs will contain more foil cards.
 		cost:15 foils
-		icon:icons[2,1] icons[0,3] icons[0,1] icons[2,0]
+		icon:icons[2,1] icons[0,4] icons[0,1] icons[2,0]
 		req:10 boosterPack:clicks
 		
 	*foilWorkers
@@ -369,6 +373,6 @@ Shinies
 			toast The booster pack contained <b>[$amount] packs</b> and <b>[$foilamount] foils</b>!
 			show foils
 		end
-		frequency:120
+		frequency:90
 		movement:anywhere growShrink fade wiggle
 		icon:https://i.imgur.com/ElaDFnx.png
